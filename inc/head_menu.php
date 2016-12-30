@@ -11,13 +11,7 @@
       <li class="active"><a href="index.php">INICIO</a></li>
       <li><a class="hvr-float-shadow" href="portafolio.php">PORTAFOLIO</a></li>
       <li><a class="hvr-float-shadow" href="servicios.php">SERVICIOS</a></li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">LA BRUJULA <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-        <li><a href="#">¿Quién soy?</a></li>
-        <li><a href="#">¿Qué hago?</a></li>
-        </ul>
-      </li>
+      <li><a class="hvr-float-shadow" href="curriculum.php">CV</a></li>
       <li><a class="hvr-float-shadow" href="#">BLOGS</a></li>
   </ul>
 
@@ -31,9 +25,8 @@
         <li><a href="#">INICIO</a></li>
         <li><a href="#">PORTAFOLIO</a></li>
         <li><a href="#">SERVICIOS</a></li>
-        <li><a href="#">LA BRUJULA</a></li>
+        <li><a href="#">CV</a></li>
         <li><a href="#">BLOGS</a></li>
-        <li><a href="#">CONTACTO</a></li>
       </ul>
     </div>
   </div>
