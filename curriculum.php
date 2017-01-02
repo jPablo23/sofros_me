@@ -51,7 +51,139 @@
       <!-- row Quien, que hago, en que te ayudo -->
       <!-- row Educacion y experiencia -->
       <div class="row">
-        Educacion y experiencia
+        <div class="col-xs-12 col-lg-12">
+          <h3>Educación y Experiencia</h3>
+          <ol id="timeline">
+            <li>
+              <time>2009 - 2011</time>
+              <p>Estudios en UTNG carrera: Técnico Superior Universitario en Tecnologías de Información y Comunicación Área Sistemas Informáticos</p>
+            </li>
+            <li>
+              <time>20011 - 2013</time>
+              <p>Estudios en UTNG carrera: Ingeniería en Tecnologías de Información y Comunicación</p>
+            </li>
+            <li>
+              <time>19/03/2012-29/04/2013</time>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#iquasoft" aria-expanded="true" aria-controls="iquasoft">
+                      <strong>iQuaSoft, Soluciones tecnológicas</strong>
+                      </a>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <div id="iquasoft" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <p><strong>Dirección:</strong></p>
+                    <p><strong>Col:</strong></p>
+                    <p><strong>Tel:</strong></p>
+                    <p><strong>Web:</strong></p>
+                    <p><strong>Cargo:</strong></p>
+                    <p><strong>Función:</strong></p>
+                  </div>
+                </div>
+            </li>
+            <li>
+              <time>03/05/2013 - 21/04/2014</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#industriasCorp" aria-expanded="true" aria-controls="industriasCorp">
+                    <strong>Industrias Corp. Automatización Industrial</strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="industriasCorp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Dirección:</strong></p>
+                  <p><strong>Col:</strong></p>
+                  <p><strong>Tel:</strong></p>
+                  <p><strong>Web:</strong></p>
+                  <p><strong>Cargo:</strong></p>
+                  <p><strong>Función:</strong></p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <time>07/06/2014 - 21/01/2015</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#corpogenius" aria-expanded="true" aria-controls="corpogenius">
+                    <strong>CORPOGENIUS INDUSTRY Automatización Industrial</strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="corpogenius" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Dirección:</strong></p>
+                  <p><strong>Col:</strong></p>
+                  <p><strong>Tel:</strong></p>
+                  <p><strong>Web:</strong></p>
+                  <p><strong>Cargo:</strong></p>
+                  <p><strong>Función:</strong></p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <time>30/03/2015 - 01/06/2015</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ieeg" aria-expanded="true" aria-controls="ieeg">
+                    <strong>Instituto Electoral del Estado de Guanajuato</strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="ieeg" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Dirección:</strong></p>
+                  <p><strong>Col:</strong></p>
+                  <p><strong>Tel:</strong></p>
+                  <p><strong>Web:</strong></p>
+                  <p><strong>Cargo:</strong></p>
+                  <p><strong>Función:</strong></p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <time>01/06/2015 - Actualidad</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#freelancer" aria-expanded="true" aria-controls="freelancer">
+                    <strong>Freelancer</strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="freelancer" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Dirección:</strong></p>
+                  <p><strong>Col:</strong></p>
+                  <p><strong>Tel:</strong></p>
+                  <p><strong>Web:</strong></p>
+                  <p><strong>Cargo:</strong></p>
+                  <p><strong>Función:</strong></p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
       </div>
       <!-- row Educacion y experiencia -->
       <!-- row Habilidades y datos tecnicos -->
