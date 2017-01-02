@@ -472,3 +472,37 @@ PRICING STYLES
 	text-decoration: none;
 	background-color: #2098d1;
 }
+
+/* *************************************
+* *********** Para CV **********
+* ************************************ */
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: block;
+  margin: 10px auto 0 auto;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+
+	animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+
+.curriculum{
+	float: none;
+	font-family: 'Comic Sans', cursive;
+	text-align: center;
+	width: 100%;
+}
