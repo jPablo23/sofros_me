@@ -589,14 +589,19 @@ PRICING STYLES
             box-shadow:0 1px #fff inset;
 }
 
+
+#divMovil{display:none;}
+
 @media screen and (max-width: 800px) {
 #timeline{
 	display: none;
 }
+#divMovil{display:inline;}
 }
 
 @media screen and (max-width: 990px) {
 #timeline{
 	display: none;
 }
+#divMovil{display:inline;}
 }

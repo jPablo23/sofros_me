@@ -51,15 +51,15 @@
       <!-- row Quien, que hago, en que te ayudo -->
       <!-- row Educacion y experiencia -->
       <div class="row">
+        <h3 id="rowEduExpe">Educación y Experiencia</h3>
         <div class="col-xs-12 col-lg-12">
-          <h3>Educación y Experiencia</h3>
           <ol id="timeline">
             <li>
               <time>2009 - 2011</time>
               <p>Estudios en UTNG carrera: Técnico Superior Universitario en Tecnologías de Información y Comunicación Área Sistemas Informáticos</p>
             </li>
             <li>
-              <time>20011 - 2013</time>
+              <time>2011 - 2013</time>
               <p>Estudios en UTNG carrera: Ingeniería en Tecnologías de Información y Comunicación</p>
             </li>
             <li>
@@ -69,7 +69,7 @@
                     <div class="panel-heading" role="tab" id="headingOne">
                       <h4 class="panel-title">
                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#iquasoft" aria-expanded="true" aria-controls="iquasoft">
-                      <strong>iQuaSoft, Soluciones tecnológicas</strong>
+                        <strong>iQuaSoft, Soluciones tecnológicas ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
                       </a>
                       </h4>
                     </div>
@@ -77,12 +77,13 @@
                 </div>
                 <div id="iquasoft" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body">
-                    <p><strong>Dirección:</strong></p>
-                    <p><strong>Col:</strong></p>
-                    <p><strong>Tel:</strong></p>
-                    <p><strong>Web:</strong></p>
-                    <p><strong>Cargo:</strong></p>
-                    <p><strong>Función:</strong></p>
+                    <p><strong>Ciudad:</strong> San Felipe GTO, C.P. 37600 </p>
+                    <p><strong>Dirección:</strong> Madero #118</p>
+                    <p><strong>Col:</strong> Centro</p>
+                    <p><strong>Tel:</strong> 4286850924</p>
+                    <p><strong>Web:</strong> <a target="_blank" href="http://iquasoft.com/" class="">iquasoft.com</a> </p>
+                    <p><strong>Cargo:</strong> Programador y soporte técnico</p>
+                    <p><strong>Función:</strong> Mantenimiento preventivo y correctivo a equipos de cómputo, desarrollo del bloque de reconocimiento de voz sistema POLO (java), scripts para respaldos MySQL y SQL server, Instalación y configuración del sistema MyBusiness POS</p>
                   </div>
                 </div>
             </li>
@@ -93,7 +94,7 @@
                   <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#industriasCorp" aria-expanded="true" aria-controls="industriasCorp">
-                    <strong>Industrias Corp. Automatización Industrial</strong>
+                    <strong>Industrias Corp. Automatización Industrial ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
                     </a>
                     </h4>
                   </div>
@@ -101,12 +102,12 @@
               </div>
               <div id="industriasCorp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                  <p><strong>Dirección:</strong></p>
-                  <p><strong>Col:</strong></p>
-                  <p><strong>Tel:</strong></p>
-                  <p><strong>Web:</strong></p>
-                  <p><strong>Cargo:</strong></p>
-                  <p><strong>Función:</strong></p>
+                  <p><strong>Ciudad:</strong> Villa De Reyes, San Luis Potosí, Mx, CP 79526 </p>
+                  <p><strong>Dirección:</strong> Av. Frankfurt # 201</p>
+                  <p><strong>Col:</strong> Parque Industrial Logistik 2</p>
+                  <p><strong>Tel:</strong> 444 279 8399</p>
+                  <p><strong>Cargo:</strong> Analista, Programador, administrador de base de datos, diseñador front-end</p>
+                  <p><strong>Función:</strong> Desarrollo en asp.net C#, PHP, JSP, análisis de sistemas, administrador de base de datos, desarrollo y mantenimento del sistema Energy Management System (EMS) </p>
                 </div>
               </div>
             </li>
@@ -117,7 +118,7 @@
                   <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#corpogenius" aria-expanded="true" aria-controls="corpogenius">
-                    <strong>CORPOGENIUS INDUSTRY Automatización Industrial</strong>
+                    <strong>CORPOGENIUS INDUSTRY Automatización Industrial ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
                     </a>
                     </h4>
                   </div>
@@ -125,12 +126,12 @@
               </div>
               <div id="corpogenius" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                  <p><strong>Dirección:</strong></p>
-                  <p><strong>Col:</strong></p>
-                  <p><strong>Tel:</strong></p>
-                  <p><strong>Web:</strong></p>
-                  <p><strong>Cargo:</strong></p>
-                  <p><strong>Función:</strong></p>
+                  <p><strong>Ciudad:</strong> Villa de pozos, S.L.P. C.P. 78421</p>
+                  <p><strong>Dirección:</strong> Calle Aragón N.85</p>
+                  <p><strong>Tel:</strong>  444 387 4457</p>
+                  <p><strong>Web:</strong> <a target="_blank" href="http://corpogenius.com" class="">corpogenius.com</a></p>
+                  <p><strong>Cargo:</strong> Full-Stack Developer</p>
+                  <p><strong>Función:</strong> Desarrollo en asp.net C#, PHP, java, análisis de sistemas, administrador de base de datos</p>
                 </div>
               </div>
             </li>
@@ -141,7 +142,7 @@
                   <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ieeg" aria-expanded="true" aria-controls="ieeg">
-                    <strong>Instituto Electoral del Estado de Guanajuato</strong>
+                    <strong>Instituto Electoral del Estado de Guanajuato ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
                     </a>
                     </h4>
                   </div>
@@ -149,12 +150,13 @@
               </div>
               <div id="ieeg" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                  <p><strong>Dirección:</strong></p>
-                  <p><strong>Col:</strong></p>
-                  <p><strong>Tel:</strong></p>
-                  <p><strong>Web:</strong></p>
-                  <p><strong>Cargo:</strong></p>
-                  <p><strong>Función:</strong></p>
+                  <p><strong>Ciudad:</strong> Guanajuato, Gto C.P. 36263</p>
+                  <p><strong>Dirección:</strong> Carretera Gto-Puentecillas Km. 2 </p>
+                  <p><strong>Col:</strong> Puentecillas</p>
+                  <p><strong>Tel:</strong>  01 800 433 44 86</p>
+                  <p><strong>Web:</strong> <a target="_blank" href="http://www.ieeg.org.mx/" class="">www.ieeg.org.mx</a> </p>
+                  <p><strong>Cargo:</strong> Ingeniero de soporte</p>
+                  <p><strong>Función:</strong> Soporte de conexiones web, integrador del sistema PREP, instalación de cableado estructurado</p>
                 </div>
               </div>
             </li>
@@ -165,7 +167,7 @@
                   <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#freelancer" aria-expanded="true" aria-controls="freelancer">
-                    <strong>Freelancer</strong>
+                    <strong>Freelancer ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
                     </a>
                     </h4>
                   </div>
@@ -173,17 +175,139 @@
               </div>
               <div id="freelancer" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                  <p><strong>Dirección:</strong></p>
-                  <p><strong>Col:</strong></p>
-                  <p><strong>Tel:</strong></p>
-                  <p><strong>Web:</strong></p>
-                  <p><strong>Cargo:</strong></p>
-                  <p><strong>Función:</strong></p>
+                  <p><strong>Ciudad:</strong> San Felipe GTO, C.P. 37600</p>
+                  <p><strong>Dirección:</strong> Arg&uuml;ello #306</p>
+                  <p><strong>Col:</strong> Oriental</p>
+                  <p><strong>Tel:</strong> 428 105 5451</p>
+                  <p><strong>Web:</strong> <a target="_blank" href="http://sofroscorp.com/" class="">sofroscorp.com</a> </p>
+                  <p><strong>Cargo:</strong> Full-stack developer</p>
+                  <p><strong>Función:</strong> Desarrollo de páginas web y sistemas de información, Desarrollo front-end, Análisis, desarrollo e implementación de base de datos, Desarrollo Movil, Diseño e instalación de redes, Consultoria TI</p>
                 </div>
               </div>
             </li>
           </ol>
         </div>
+            <!-- row Educacion y Experiencia Moviles -->
+          <div id="divMovil" class="col-xs-12 col-lg-12">
+            <time>2009 - 2011</time>
+            <p>Estudios en UTNG carrera: Técnico Superior Universitario en Tecnologías de Información y Comunicación Área Sistemas Informáticos</p>
+            <time>2011 - 2013</time>
+            <p>Estudios en UTNG carrera: Ingeniería en Tecnologías de Información y Comunicación</p>
+            <time>19/03/2012-29/04/2013</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#movil-iquasoft" aria-expanded="true" aria-controls="movil-iquasoft">
+                    <strong>iQuaSoft, Soluciones tecnológicas ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="movil-iquasoft" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Ciudad:</strong> San Felipe GTO, C.P. 37600 </p>
+                  <p><strong>Dirección:</strong> Madero #118</p>
+                  <p><strong>Col:</strong> Centro</p>
+                  <p><strong>Tel:</strong> 4286850924</p>
+                  <p><strong>Web:</strong> <a target="_blank" href="http://iquasoft.com/" class="">iquasoft.com</a> </p>
+                  <p><strong>Cargo:</strong> Programador y soporte técnico</p>
+                  <p><strong>Función:</strong> Mantenimiento preventivo y correctivo a equipos de cómputo, desarrollo del bloque de reconocimiento de voz sistema POLO (java), scripts para respaldos MySQL y SQL server, Instalación y configuración del sistema MyBusiness POS</p>
+                </div>
+              </div>
+              <time>03/05/2013 - 21/04/2014</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#movil-industriasCorp" aria-expanded="true" aria-controls="movil-industriasCorp">
+                    <strong>Industrias Corp. Automatización Industrial ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="movil-industriasCorp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Ciudad:</strong> Villa De Reyes, San Luis Potosí, Mx, CP 79526 </p>
+                  <p><strong>Dirección:</strong> Av. Frankfurt # 201</p>
+                  <p><strong>Col:</strong> Parque Industrial Logistik 2</p>
+                  <p><strong>Tel:</strong> 444 279 8399</p>
+                  <p><strong>Cargo:</strong> Analista, Programador, administrador de base de datos, diseñador front-end</p>
+                  <p><strong>Función:</strong> Desarrollo en asp.net C#, PHP, JSP, análisis de sistemas, administrador de base de datos, desarrollo y mantenimento del sistema Energy Management System (EMS) </p>
+                </div>
+              </div>
+              <time>07/06/2014 - 21/01/2015</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#movil-corpogenius" aria-expanded="true" aria-controls="movil-corpogenius">
+                    <strong>CORPOGENIUS INDUSTRY Automatización Industrial ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="movil-corpogenius" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Ciudad:</strong> Villa de pozos, S.L.P. C.P. 78421</p>
+                  <p><strong>Dirección:</strong> Calle Aragón N.85</p>
+                  <p><strong>Tel:</strong>  444 387 4457</p>
+                  <p><strong>Web:</strong> <a target="_blank" href="http://corpogenius.com" class="">corpogenius.com</a></p>
+                  <p><strong>Cargo:</strong> Full-Stack Developer</p>
+                  <p><strong>Función:</strong> Desarrollo en asp.net C#, PHP, java, análisis de sistemas, administrador de base de datos</p>
+                </div>
+              </div>
+              <time>30/03/2015 - 01/06/2015</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#movil-ieeg" aria-expanded="true" aria-controls="movil-ieeg">
+                    <strong>Instituto Electoral del Estado de Guanajuato ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="movil-ieeg" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Ciudad:</strong> Guanajuato, Gto C.P. 36263</p>
+                  <p><strong>Dirección:</strong> Carretera Gto-Puentecillas Km. 2 </p>
+                  <p><strong>Col:</strong> Puentecillas</p>
+                  <p><strong>Tel:</strong>  01 800 433 44 86</p>
+                  <p><strong>Web:</strong> <a target="_blank" href="http://www.ieeg.org.mx/" class="">www.ieeg.org.mx</a> </p>
+                  <p><strong>Cargo:</strong> Ingeniero de soporte</p>
+                  <p><strong>Función:</strong> Soporte de conexiones web, integrador del sistema PREP, instalación de cableado estructurado</p>
+                </div>
+              </div>
+              <time>01/06/2015 - Actualidad</time>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#movil-freelancer" aria-expanded="true" aria-controls="movil-freelancer">
+                    <strong>Freelancer ...<i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></strong>
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div id="movil-freelancer" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Ciudad:</strong> San Felipe GTO, C.P. 37600</p>
+                  <p><strong>Dirección:</strong> Arg&uuml;ello #306</p>
+                  <p><strong>Col:</strong> Oriental</p>
+                  <p><strong>Tel:</strong> 428 105 5451</p>
+                  <p><strong>Web:</strong> <a target="_blank" href="http://sofroscorp.com/" class="">sofroscorp.com</a> </p>
+                  <p><strong>Cargo:</strong> Full-stack developer</p>
+                  <p><strong>Función:</strong> Desarrollo de páginas web y sistemas de información, Desarrollo front-end, Análisis, desarrollo e implementación de base de datos, Desarrollo Movil, Diseño e instalación de redes, Consultoria TI</p>
+                </div>
+              </div>
+        </div>
+          <!-- row Educacion y Experiencia Moviles -->
       </div>
       <!-- row Educacion y experiencia -->
       <!-- row Habilidades y datos tecnicos -->
