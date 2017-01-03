@@ -605,3 +605,12 @@ PRICING STYLES
 }
 #divMovil{display:inline;}
 }
+
+/*Responsivo en portafolio*/
+@media screen and (max-width: 365px) {
+	.movil-img-pf
+	{
+	width: 250px;
+	height: 150px;
+	}
+}

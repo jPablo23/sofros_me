@@ -419,28 +419,28 @@
           </div>
         </div>
         </div>
+        <!-- row Habilidades y datos tecnicos -->
+        <!-- row referencias -->
+        <div class="row">
+          <h2>Referencias</h2>
+          <div class="cube-service col-xs-12 col-lg-4">
+              <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+              <h3>Ing. Rogelio Lozano Rodríguez</h3>
+              <p><a target="_blank" href="http://iquasoft.com/" class="">CEO iQuaSoft</a>, Soluciones tecnológicas</p>
+          </div>
+          <div class="cube-service col-xs-12 col-lg-4">
+              <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+              <h3>Ing. Carlos Montes Flores</h3>
+              <p><a target="_blank" href="http://corpogenius.com" class="">CEO CORPOGENIUS INDUSTRY</a> Automatización Industrial</p>
+          </div>
+          <div class="cube-service col-xs-12 col-lg-4">
+              <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+              <h3>Ing. Alejandro Vázquez</h3>
+              <p><a target="_blank" href="http://wifimax.com.mx/index.php" class="">CEO Wifimax</a> </p>
+          </div>
+        </div>
+        <!-- row referencias -->
       </div>
-      <!-- row Habilidades y datos tecnicos -->
-      <!-- row referencias -->
-      <div class="row">
-        <h2>Referencias</h2>
-        <div class="cube-service col-xs-12 col-lg-4">
-            <i class="fa fa-user fa-5x" aria-hidden="true"></i>
-            <h3>Ing. Rogelio Lozano Rodríguez</h3>
-            <p><a target="_blank" href="http://iquasoft.com/" class="">CEO iQuaSoft</a>, Soluciones tecnológicas</p>
-        </div>
-        <div class="cube-service col-xs-12 col-lg-4">
-            <i class="fa fa-user fa-5x" aria-hidden="true"></i>
-            <h3>Ing. Carlos Montes Flores</h3>
-            <p><a target="_blank" href="http://corpogenius.com" class="">CEO CORPOGENIUS INDUSTRY</a> Automatización Industrial</p>
-        </div>
-        <div class="cube-service col-xs-12 col-lg-4">
-            <i class="fa fa-user fa-5x" aria-hidden="true"></i>
-            <h3>Ing. Alejandro Vázquez</h3>
-            <p><a target="_blank" href="http://wifimax.com.mx/index.php" class="">CEO Wifimax</a> </p>
-        </div>
-      </div>
-      <!-- row referencias -->
    </div>
  </div>
  <!-- container -->

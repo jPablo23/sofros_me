@@ -8,8 +8,8 @@
   <div  class="row">
 
     <div class="col-xs-12 col-lg-6">
-      <div class="view second-effect">
-      <img src="images/portafolio/1.png" width="300" height="200"/>
+      <div class="view second-effect movil-img-pf">
+      <img  src="images/portafolio/1.png" width="300" height="200"/>
       <div class="mask">
         <a href="#" class="info" title="Full Image">Full Image</a>
       </div>
@@ -17,7 +17,7 @@
 <p>GemitiPV es un ERP de punto venta, controla las principales actividades del negocio entre ellas los ingresos y egresos del negocio, Desarrollado en <a target="_blank" href="http://corpogenius.com/" class="info">Corpogenius INDUSTRY</a>.</p>
     </div>
    <div class="col-xs-12 col-lg-6">
-     <div class="view second-effect">
+     <div class="view second-effect movil-img-pf">
      <img src="images/portafolio/2.png" width="300" height="200"/>
      <div class="mask">
        <a href="#" class="info" title="Full Image">Full Image</a>
@@ -28,7 +28,7 @@
 </div>
 <div class="row">
   <div class="col-xs-12 col-lg-6">
-    <div class="view second-effect">
+    <div class="view second-effect movil-img-pf">
     <img src="images/portafolio/3.png" width="300" height="200"/>
     <div class="mask">
       <a href="#" class="info" title="Full Image">Full Image</a>
@@ -37,7 +37,7 @@
     <p>Modificación del fuente  calendario bootstrap de <a target="_blank" href="https://github.com/icodeart" class="info">iCODEART</a>, para crear un módulo de eventos, desarrollo privado. <i class="fa fa-user-secret" aria-hidden="true"></i></p>
   </div>
   <div class="col-xs-12 col-lg-6">
-    <div class="view second-effect">
+    <div class="view second-effect movil-img-pf">
     <img src="images/portafolio/4.png" width="300" height="200"/>
     <div class="mask">
       <a href="#" class="info" title="Full Image">Full Image</a>
@@ -48,7 +48,7 @@
 </div>
 <div class="row">
   <div class="col-xs-12 col-lg-6">
-    <div class="view second-effect">
+    <div class="view second-effect movil-img-pf">
     <img src="images/portafolio/5.png" width="300" height="200"/>
     <div class="mask">
       <a href="#" class="info" title="Full Image"></a>
@@ -57,7 +57,7 @@
     <p>Scripts para mejorar la productividad y corrección de errores en Base de Datos <i class="fa fa-database" aria-hidden="true"></i> desarrollo privado  <i class="fa fa-user-secret" aria-hidden="true"></i></p>
   </div>
   <div class="col-xs-12 col-lg-6">
-    <div class="view second-effect">
+    <div class="view second-effect movil-img-pf">
     <img src="images/portafolio/6.png" width="300" height="200"/>
     <div class="mask">
       <a href="#" class="info" title="Full Image"></a>
