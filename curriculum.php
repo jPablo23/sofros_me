@@ -40,10 +40,10 @@
             <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
             <h3>¿Qué hago?</h3>
             <p>Creo y/o Mejoró productos de software así como presto servicios de TI, para ayudar a obtener información relevante para la toma de decisiones de su empresa.</p>
-            <p>Toda empresa, incluido tu, necesitas analizar información para tomar acción, recuerda que "Tu situación actual es en gran medida el resultado de tus decisiones pasadas".</p>
+            <p>Toda empresa, incluido tú, necesitas analizar información para tomar acción, recuerda que "Tu situación actual es en gran medida el resultado de tus decisiones pasadas".</p>
         </div>
         <div class="cube-service col-xs-12 col-lg-4">
-            <i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+            <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
             <h3>¿En que te ayudo?</h3>
             <p>Mis años de experiencia en desarrollo de proyectos y mis contactos podrían resultar de interés para una empresa en crecimiento como la suya. la información es importante, yo puedo ayudar a adquirirla.</p>
         </div>
@@ -316,32 +316,32 @@
         <div class="col-xs-12 col-lg-6">
           <h3>Web <i class="fa fa-cloud" aria-hidden="true"></i></h3>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
               JavaScript <i class="fa fa-code" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
               CSS <i class="fa fa-css3" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
               PHP <i class="fa fa-code" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
               HTML5 <i class="fa fa-html5" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
               Ajax <i class="fa fa-code" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
               jQuiery <i class="fa fa-code" aria-hidden="true"></i>
             </div>
           </div>
@@ -352,39 +352,39 @@
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
               Python <i class="fa fa-code" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
               C# <i class="fa fa-windows" aria-hidden="true"></i>
             </div>
           </div>
           <h3>Control de versiones <i class="fa fa-share-alt" aria-hidden="true"></i></h3>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
               GIT <i class="fa fa-bitbucket" aria-hidden="true"></i>
             </div>
           </div>
           <h3>Herramientas <i class="fa fa-certificate" aria-hidden="true"></i></h3>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
               Sistemas Gestores de Base de Datos (SGBD) <i class="fa fa-database" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
               Vagrant <i class="fa fa-archive" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
               Terminal  <i class="fa fa-terminal" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
               Patrones de diseño  <i class="fa fa-rebel" aria-hidden="true"></i>
             </div>
           </div>
@@ -392,28 +392,28 @@
         <div class="col-xs-12 col-lg-6">
           <h3>Sistemas Operativos</h3>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
               Windows  <i class="fa fa-windows" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
               Linux  <i class="fa fa-linux" aria-hidden="true"></i>
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
               Mac  <i class="fa fa-apple" aria-hidden="true"></i>
             </div>
           </div>
           <h3>Idiomas</h3>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
               Ingles
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
               Español (lengua madre)
             </div>
           </div>
@@ -423,20 +423,21 @@
       <!-- row Habilidades y datos tecnicos -->
       <!-- row referencias -->
       <div class="row">
+        <h2>Referencias</h2>
         <div class="cube-service col-xs-12 col-lg-4">
-            <i class="fa fa-user-secret fa-5x" aria-hidden="true"></i>
+            <i class="fa fa-user fa-5x" aria-hidden="true"></i>
             <h3>Ing. Rogelio Lozano Rodríguez</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p><a target="_blank" href="http://iquasoft.com/" class="">CEO iQuaSoft</a>, Soluciones tecnológicas</p>
         </div>
         <div class="cube-service col-xs-12 col-lg-4">
-            <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
+            <i class="fa fa-user fa-5x" aria-hidden="true"></i>
             <h3>Ing. Carlos Montes Flores</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p><a target="_blank" href="http://corpogenius.com" class="">CEO CORPOGENIUS INDUSTRY</a> Automatización Industrial</p>
         </div>
         <div class="cube-service col-xs-12 col-lg-4">
-            <i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+            <i class="fa fa-user fa-5x" aria-hidden="true"></i>
             <h3>Ing. Alejandro Vázquez</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p><a target="_blank" href="http://wifimax.com.mx/index.php" class="">CEO Wifimax</a> </p>
         </div>
       </div>
       <!-- row referencias -->
