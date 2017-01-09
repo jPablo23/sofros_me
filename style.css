@@ -599,18 +599,44 @@ PRICING STYLES
 #divMovil{display:inline;}
 }
 
+
 @media screen and (max-width: 990px) {
 #timeline{
 	display: none;
 }
 #divMovil{display:inline;}
+.movil-img-pf-ix
+{
+width: 250px;
+height: 250px;
+}
 }
 
-/*Responsivo en portafolio*/
+
+/*Responsivo en portafolio e index*/
 @media screen and (max-width: 365px) {
 	.movil-img-pf
 	{
 	width: 250px;
 	height: 150px;
+	}
+	.movil-img-pf-ix
+	{
+	width: 250px;
+	height: 250px;
+	}
+}
+
+/*Responsivo en portafolio e index*/
+@media screen and (max-width: 312px) {
+	.movil-img-pf
+	{
+	width: 150px;
+	height: 50px;
+	}
+	.movil-img-pf-ix
+	{
+	width: 200px;
+	height: 200px;
 	}
 }

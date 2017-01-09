@@ -1,7 +1,7 @@
 <div class="row">
    <!-- title -->
    <div id="name" class="col-xs-12 col-lg-6">
-     <a href="index.php">JPablo Rodriguez <i class="fa fa-codepen animated infinite rubberBand"></i></a>
+     <a href="http://sofroscorp.com/">JPablo Rodriguez <i class="fa fa-codepen animated infinite rubberBand"></i></a>
    </div>
    <!-- title -->
 

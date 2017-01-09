@@ -5,7 +5,7 @@
        <?php include 'inc/head_menu.php'; ?>
        <div  class="well">
          <div class="col-sm-12 text-center">
-             <img class="profile-image" src="images/jpablo.jpg" height="350px" width="350px">
+             <img class="profile-image movil-img-pf-ix" src="images/jpablo.jpg" height="350px" width="350px">
              <p><h1 class="name-me">JPablo Rodriguez</h1></p>
          </div>
 
