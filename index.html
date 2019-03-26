@@ -1,599 +1,402 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>SofrosCorp-By-JPKlop</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/lightbox.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
+<html lang="en">
 
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-  <![endif]-->
+  <head>
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="images/ico.png">
-</head><!--/head-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<body>
+    <title>SofrosCorp</title>
 
-  <!--.preloader-->
-  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
-  <!--/.preloader-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
 
-  <header id="home">
-    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url(images/slider/1-sl.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Bienvenido a <span>Sofroscorp</span></h1>
-            <p class="animated fadeInRightBig">Desarrollo - BD - Movil - Consultor TI</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Ver más</a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url(images/slider/2-ls.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Un espacio de <span>Tecnología</span></h1>
-            <p class="animated fadeInRightBig">Desarrollo - BD - Movil - Consultor TI</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Ver más</a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url(images/slider/3-ls.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Y muchas cosas <span>Más</span></h1>
-            <p class="animated fadeInRightBig">Desarrollo - BD - Movil - Consultor TI</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Ver más</a>
-          </div>
-        </div>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="images/ico.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+
+    <!-- PRE LOADER -->
+
+    <div class="preloader">
+      <div class="spinner">
+        <span class="spinner-rotate"></span>
       </div>
-      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+    </div>
 
-      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
 
-    </div><!--/#home-slider-->
+    <!-- Navigation Section -->
 
-    <div class="main-nav">
+    <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
       <div class="container">
+
+        <!-- navbar header -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">
-            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-          </a>
+          <a href="#" class="navbar-brand">Pablo Rodríguez</a>
         </div>
+
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="scroll active"><a href="#home">Inicio</a></li>
-            <li class="scroll"><a href="#services">Servicios</a></li>
-            <li class="scroll"><a href="#about-us">CV</a></li>
-            <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-            <li class="scroll"><a href="#blog">Blog</a></li>
-            <li class="scroll"><a href="#contact">Contacto</a></li>
-            <li class="scroll"><a href="radiox.html">La-Radiox</a></li>
+            <li><a href="#home" class="smoothScroll">Home</a></li>
+            <li><a href="#about" class="smoothScroll">Sobre mi</a></li>
+            <li><a href="#experience" class="smoothScroll">Experiencia</a></li>
+            <li><a href="#quotes" class="smoothScroll">Comentarios</a></li>
+            <li><a href="#contact" class="smoothScroll">Contacto</a></li>
           </ul>
         </div>
-      </div>
-    </div><!--/#main-nav-->
-  </header><!--/#home-->
 
-  <section id="services">
-    <div class="container">
-      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      </div>
+    </div>
+
+
+    <!-- Home Section -->
+
+    <section id="home" class="parallax-section">
+      <div class="container">
         <div class="row">
-          <div class="text-center col-sm-8 col-sm-offset-2">
-            <h2>Servicios</h2>
-            <p></p>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="home-img"></div>
           </div>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="home-thumb">
+              <div class="section-title">
+                <h4 class="wow fadeInUp" data-wow-delay="0.3s">Bienvenido a mi sitio web</h4>
+                <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hola, soy <strong>Pablo Rodríguez</strong> Full-Stack Developer Freelancer.</h1>
+                <p class="wow fadeInUp" data-wow-delay="0.9s">Me especializo en el desarrollo de aplicaciones de escritorio y web, aunque estoy incursionando en los desarrollos híbridos y móviles nativos, la tecnología cambia constantemente.</p>
+
+                <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s">Saber más</a>
+
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
-      <div class="text-center our-services">
+    </section>
+
+
+    <!-- About Section -->
+
+    <section id="about" class="parallax-section">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="service-icon">
+
+          <div class="col-md-6 col-sm-12">
+            <div class="about-thumb">
+              <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
+                <h1>Juan Pablo Rodríguez Mendoza</h1>
+                <p class="color-yellow">Full-Stack Developer</p>
+              </div>
+              <div class="wow fadeInUp" data-wow-delay="0.8s">
+                <p>En mi carrera laboral, me he encontrado con muchos tropiezos, he fracasado a lo grande, pero he obtenido grandes enseñanzas de ellos.</p>
+                <p>Con el tiempo he adquirido conocimiento de cómo desarrollar proyectos exitosos a
+                  través del diálogo y del trabajo inteligente.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="background-image about-img"></div>
+          </div>
+
+          <div class="bg-yellow col-md-3 col-sm-6">
+            <div class="skill-thumb">
+              <div class="wow fadeInUp section-title color-white" data-wow-delay="1.2s">
+                <h1>
+                  Mis habilidades</h1>
+                <p class="color-white">HTML CSS JS . PHP C# . Linux Windows Mac</p>
+              </div>
+
+              <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
+                <strong>Frontend</strong>
+                <span class="color-white pull-right">80%</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                </div>
+
+                <strong>Backend</strong>
+                <span class="color-white pull-right">90%</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                </div>
+
+                <strong>Sistemas Operativos</strong>
+                <span class="color-white pull-right">70%</span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Service Section -->
+
+    <section id="service" class="parallax-section">
+      <div class="container">
+        <div class="row">
+
+          <div class="bg-yellow col-md-3 col-sm-6">
+            <div class="wow fadeInUp color-white service-thumb" data-wow-delay="0.8s">
+              <i class="fa fa-barcode"></i>
+              <h3>ANÁLISIS Y DISEÑO</h3>
+              <p class="color-white">Obtención de requerimientos junto con las acciones lógicas y el orden en qué se deben ejecutar.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.2s">
               <i class="fa fa-desktop"></i>
-            </div>
-            <div class="service-info">
-              <h3>DESARROLLO</h3>
-              <p>Desarrollo de páginas web y sistemas de información adaptados a tus necesidades, En Sofroscorp sabemos qué datos con calidad, ayudan a la toma de decisiones.</p>
+              <h3>CODIFICACIÓN DE SOFTWARE</h3>
+              <p class="color-white">Programación del software en función de los requerimiento del sistema especificado.</p>
             </div>
           </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div class="service-icon">
-              <i class="fa fa-html5"></i>
-            </div>
-            <div class="service-info">
-              <h3>MAQUETACIÓN WEB</h3>
-              <p>Las interfaces son tan importantes como la programación, ya que una interfaz agradable ayuda al usuario a encontrar información relevante.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-            <div class="service-icon">
-              <i class="fa fa-database"></i>
-            </div>
-            <div class="service-info">
-              <h3>BASE DE DATOS</h3>
-              <p>Las bases de datos son el corazón de toda empresa, ya que en ellas se encuentra toda la información crítica, por esa razón es bueno un buen análisis para la implementación y el desarrollo de estas.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-            <div class="service-icon">
-              <i class="fa fa-mobile"></i>
-            </div>
-            <div class="service-info">
+
+          <div class="bg-dark col-md-3 col-sm-6">
+            <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.6s">
+              <i class="fa fa-table"></i>
               <h3>DESARROLLO MOVIL</h3>
-              <p>El mundo cambia rápidamente, los móviles se usan cada vez más, son perfectos para monitorear las operaciones de su empresa y si tiene cámaras son ideales para espiar... perdon quise escribir vigilar a sus empleados.</p>
+              <p class="color-white">Explotación absoluta de las tecnologías HTML5 y CSS3, para el cumplimiento de requerimientos.</p>
             </div>
           </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
-            <div class="service-icon">
+
+          <div class="bg-white col-md-3 col-sm-6">
+            <div class="wow fadeInUp service-thumb" data-wow-delay="1.8s">
               <i class="fa fa-server"></i>
-            </div>
-            <div class="service-info">
-              <h3>DISEÑO E INSTALACIÓN DE REDES</h3>
-              <p>Canales de información, corren como grandes ríos trayendo en ellos datos importantes de su empresa, una buena topología de red asegura el intercambio mutuo de datos, evitando así desastres informáticos.</p>
+              <h3>FULL STACK</h3>
+              <p>Versatilidad en cualquier proyecto gracias al conocimiento Cliente/Servidor/Arquitectura.</p>
             </div>
           </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-            <div class="service-icon">
-              <i class="fa fa-paper-plane-o"></i>
-            </div>
-            <div class="service-info">
-              <h3>CONSULTOR DE TI</h3>
-              <p>Con el tiempo he adquirido conocimiento de cómo desarrollar proyectos exitosos, he estado en todas las fases del proyecto e incluso en la entrevista inicial con el cliente (ventas), yo contribuyo al crecimiento y éxito de los clientes o empresas que acuden a mi.</p>
-            </div>
-          </div>
+
         </div>
       </div>
-    </div>
-  </section><!--/#services-->
-  <section id="about-us" class="parallax">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Ing. Juan Pablo Rodríguez Mendoza</h2>
-            <p>Hola Soy Pablo Rodríguez creador de Sofroscorp, Full-Stack developer freelancer, líder y Co-Fundador de varios proyectos.</p>
-            <p>Me apasiona la mejora continua, Soy estudiante de la vida, del Kaizen, la Mahajrya, la Historia y de mi mismo.</p>
-            <p> Descargar ||  <a target="_blank" href="docs/CV_JPabloRdzmz.pdf">CV básico</a> || <a target="_blank" href="docs/CV_JPabloRdzmz_ext.pdf">CV extenso</a> </p>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <p class="lead">Lenguajes robustos (Escritorio <i class="fa fa-desktop"></i> )</p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="80">80%</div>
-              </div>
-            </div>
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-              <p class="lead">Web <i class="fa fa-cloud"></i></p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">85%</div>
-              </div>
-            </div>
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <p class="lead">Sistemas Operativos <i class="fa fa-terminal"></i></p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="70">70%</div>
-              </div>
-            </div>
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <p class="lead">Herramientas <i class="fa fa-wrench"></i></p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="65">65%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#about-us-->
-
-  <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <h2>Porta-folio</h2>
-          <p>App, sistemas, modulos y secuencias de comandos (scripts) </p>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row" id="div_portf">
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/gemitiPV.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>GemitiPV (ERP) Punto de venta</h3>
-                    <p>Controla las principales <br/> actividades del negocio</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a href="http://corpogenius.com/Index.aspx" target="_blank" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/gemitiPV-detalle.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/bitacora.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Bitácora</h3>
-                    <p>Enfocado al control de producción</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a href="http://corpogenius.com/Products.aspx" target="_blank" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/bitacora-detalle.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/cmr.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>CMS accidental</h3>
-                    <p>Sistema de gestión de contenidos <br/> desarrollo privado </p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a  href="#portfolio" ><i class="fa fa-user-secret"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/cmr-detalle.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/sisagen.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Sisagen_vX</h3>
-                    <p>Sistema de administración: <br/> Areas, Recursos, Materiales <br/> desarrollo privado </p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a  href="#portfolio"><i class="fa fa-user-secret"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/sisagen-detalle.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/script.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Scripts para Servidores</h3>
-                    <p>secuencias de comandos, <br/> para la mejora de productividad de los servidores, <br/> ya sean de BD, Windows Server, Linux <br/> desarrollos privados </p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a  href="#portfolio"><i class="fa fa-user-secret"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/script-detalle.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/sell.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Shell de automatización de tareas</h3>
-                    <p>scripts para acciones repetitivas <br/> desarrollos privados</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a  href="#portfolio"><i class="fa fa-user-secret"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/sell-detalle.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/modulos.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Módulos para sistemas</h3>
-                    <p>Desarrollados principalmente en: <br/> PHP, HTML5, JavaScript, C# </p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a href="#div_portf" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/modulos-detalle.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/siwimax.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Siwifimax</h3>
-                    <p>Sistema desarrollado para proveedores ISP</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a href="#div_portf" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/siwimax-detalles.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="portfolio-single-wrap">
-      <div id="portfolio-single">
-      </div>
-    </div><!-- /#portfolio-single-wrap -->
-  </section><!--/#portfolio-->
+    </section>
 
 
-  <section id="features" class="parallax">
-    <div class="container">
-      <div class="row count">
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <i class="fa fa-user" style="color:#000;"></i>
-          <h3 class="timer" style="color:#000;">9</h3>
-          <p style="color:#000;">Clientes Felices</p>
-        </div>
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <i class="fa fa-desktop" style="color:#000;"></i>
-          <h3 class="timer" style="color:#000;">4</h3>
-          <p style="color:#000;">Sitios Web</p>
-        </div>
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-          <i class="fa fa-trophy" style="color:#000;"></i>
-          <h3 class="timer" style="color:#000;">0</h3>
-          <p style="color:#000;">Premios/Reconocimientos</p>
-        </div>
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <i class="fa fa-comment-o" style="color:#000;"></i>
-          <h3 style="color:#000;">24/6</h3>
-          <p style="color:#000;">Apoyo Rápido</p>
-        </div>
-      </div>
-    </div>
-  </section><!--/#features-->
+    <!-- Experience Section -->
 
-
-
-  <section id="twitter" class="parallax">
-    <div>
-      <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-      <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+    <section id="experience" class="parallax-section">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
-            <div class="twitter-icon text-center">
-              <i class="fa fa-twitter"></i>
-              <h4>SofrosCorp</h4>
-            </div>
-            <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <p>Buen trabajo, siempre me resuelve los problemas, solo que todo el tiempo está ocupado</a></p>
-                </div>
-                <div class="item">
-                  <p>Excelente el trabajo de Pablito, solo que no le gusta que lo dejemos solo</a></p>
-                </div>
-                <div class="item">
-                  <p>Estoy satisfecha con su consulta de TI, lo único que no me gusto, es que carezca de herramientas para solventar los problemas inmediatamente.</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#twitter-->
 
-  <section id="blog">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Blogs</h2>
-          <p>¿Qué te apetece leer?</p>
-        </div>
-      </div>
-      <div class="blog-posts">
-        <div class="row">
-          <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="post-thumb">
-              <a href="http://sofroscorp.com/blog/"><img class="img-responsive" src="images/blog/1.jpg" alt=""></a>
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i> 1 Comentario</span>
-                <span><i class="fa fa-heart"></i> 0 Likes</span>
-              </div>
-              <div class="post-icon">
-                <i class="fa fa-money"></i>
-              </div>
-            </div>
-            <div class="entry-header">
-              <h3><a href="http://sofroscorp.com/blog/">Sofroscorp BLOG</a></h3>
-
-              <span class="cetagory"><strong>Finanzas, Tecnología, Programación</strong></span>
-            </div>
-            <div class="entry-content">
-              <p>Apuntes y prácticas interesantes </p>
-            </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="background-image experience-img"></div>
           </div>
 
-          <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="post-thumb">
-              <a href="http://jpklop-mia.blogspot.com/"><img class="img-responsive" src="images/blog/1-MIA.jpg" alt=""></a>
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i> 3 Comentario</span>
-                <span><i class="fa fa-heart"></i> 8 Likes</span>
+          <div class="col-md-6 col-sm-6">
+            <div class="color-white experience-thumb">
+              <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                <h1>Mis experiencias</h1>
+                <p class="color-white">Empresas anteriores y mis tareas.</p>
               </div>
-              <div class="post-icon">
-                <i class="fa fa-heartbeat"></i>
-              </div>
-            </div>
-            <div class="entry-header">
-              <h3><a href="http://jpklop-mia.blogspot.com/">JPKLOP-MIA</a></h3>
 
-              <span class="cetagory"><strong>ADVERTENCIA</strong></span>
-            </div>
-            <div class="entry-content">
-              <p>El contenido de este blog, es un vistaso a mi <a href="http://sofroscorp.com/blog/2017/03/que-es-la-realidad/"><strong>realidad subjetiva</strong></a></p>
+              <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                <div class="media-object media-left">
+                  <i class="fa fa-laptop"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="https://kuasys.mx/web/" style="color:#FFFFFF;" target="_blank">kuasys</a> <small>2019 Febrero - Actual</small></h3>
+                  <p class="color-white">Codificación de software.</p>
+                </div>
+              </div>
+
+              <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                <div class="media-object media-left">
+                  <i class="fa fa-laptop"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="http://corpogenius.com/" style="color:#FFFFFF;" target="_blank">Corpogenius</a> <small>2018 Febrero - 2019 Enero</small></h3>
+                  <p class="color-white">Full-Stack Developer</p>
+                </div>
+              </div>
+
             </div>
           </div>
 
         </div>
       </div>
-    </div>
-  </section><!--/#blog-->
+    </section>
 
 
+    <!-- Education Section -->
 
-  <section id="contact">
-    <div id="contact-us" class="parallax">
+    <section id="education" class="parallax-section">
       <div class="container">
         <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Contactame</h2>
-            <p>¿Te interesa un producto o servicio? ó ¿Solo necesitas algo de asesoría para un nuevo proyecto?</p>
-          </div>
-        </div>
 
-      </div>
-    </div>
-  </section><!--/#contact-->
-
-  <section id="team">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-      <div class="team-members">
-        <div class="row">
-
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-
-                <img class="img-responsive" src="images/team/1.jpg" width="400" height="400" alt="JPablo Rodriguez">
-
-              <div class="member-info">
-                <h3>Juan Pablo Rodríguez Mendoza</h3>
-                <h4>CEO &amp; Founder</h4>
-                <p></p>
+          <div class="col-md-6 col-sm-6">
+            <div class="color-white education-thumb">
+              <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                <h1>Mi Educación</h1>
+                <p class="color-white">In cursus orci non ipsum gravida dignissim</p>
               </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" target="_blank" href="https://www.facebook.com/kane.rodriguez.75"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" target="_blank" href="https://twitter.com/JP_Kane23"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/juan-pablo-rodr%C3%ADguez-mendoza-6aab5a97?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" target="_blank" href="http://entredesarrolladores.com/user/JPablo23"><i class="fa fa-laptop"></i></a></li>
-                  <li><a class="gooplus" target="_blank" href="https://plus.google.com/u/0/116970030665323578024"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a class="instagrm" target="_blank" href="https://www.instagram.com/jpklop/"><i class="fa fa-instagram"></i></a></li>
-                  <li><a class="vk" target="_blank" href="https://vk.com/id345463367"><i class="fa fa-vk"></i></a></li>
-                  <li><a class="github" target="_blank" href="https://github.com/jPablo23"><i class="fa fa-github-square"></i></a></li>
-                </ul>
+
+              <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                <div class="media-object media-left">
+                  <i class="fa fa-laptop"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="https://www.integracionemocional.com/" style="color:#FFFFFF;" target="_blank">Integracion emocional</a><small> 2018 Enero - Cursando</small></h3>
+                  <p class="color-white">La Integración Emocional (IE) es una técnica terapéutica. </p>
+                </div>
               </div>
+
+              <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                <div class="media-object media-left">
+                  <i class="fa fa-laptop"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading"><a href="http://www.utng.edu.mx/" style="color:#FFFFFF;" target="_blank">UTNG</a> <small> 2009 Sept. - 2013 Agosto</small></h3>
+                  <p class="color-white">Ingeniero en Tecnologías de la Información y Comunicación</p>
+                </div>
+              </div>
+
             </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="background-image education-img"></div>
+          </div>
 
         </div>
       </div>
-    </div>
-  </section><!--/#team-->
+    </section>
 
 
-  <footer id="footer">
-    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <div class="container text-center">
-        <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
+    <!-- Quotes Section -->
+
+    <section id="quotes" class="parallax-section">
+      <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <p>&copy; 2018 Sofroscorp.</p>
+
+          <div class="col-md-offset-1 col-md-10 col-sm-12">
+            <i class="wow fadeInUp fa fa-star" data-wow-delay="0.6s"></i>
+            <h2 class="wow fadeInUp" data-wow-delay="0.8s">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h2>
+            <p class="wow fadeInUp" data-wow-delay="1s">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
           </div>
-          <div class="col-sm-6">
-            <p class="pull-right">Plantilla modificada de <a href="http://www.themeum.com/">Themeum</a> tema Oxygen</p>
-          </div>
+
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-  <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/mousescroll.js"></script>
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
-  <script type="text/javascript" src="js/jquery.countTo.js"></script>
-  <script type="text/javascript" src="js/lightbox.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
 
-</body>
+    <!-- Contact Section -->
+
+    <section id="contact" class="parallax-section">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-sm-12">
+            <div class="contact-form">
+              <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                <h1 class="color-white">Say hello..</h1>
+                <p class="color-white">Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.</p>
+              </div>
+
+              <div id="contact-form">
+                <form action="#template-mo" method="post">
+                  <div class="wow fadeInUp" data-wow-delay="1s">
+                    <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name">
+                  </div>
+                  <div class="wow fadeInUp" data-wow-delay="1.2s">
+                    <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                  </div>
+                  <div class="wow fadeInUp" data-wow-delay="1.4s">
+                    <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..."></textarea>
+                  </div>
+                  <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
+                    <input name="submit" type="submit" class="form-control" id="submit" value="Send">
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="background-image contact-img"></div>
+          </div>
+
+          <div class="bg-dark col-md-3 col-sm-6">
+            <div class="contact-thumb">
+              <div class="wow fadeInUp contact-info" data-wow-delay="0.6s">
+                <h3 class="color-white">Visit my office</h3>
+                <p>456 New Street 22000, New York City, USA</p>
+              </div>
+
+              <div class="wow fadeInUp contact-info" data-wow-delay="0.8s">
+                <h3 class="color-white">Contact.</h3>
+                <p><i class="fa fa-phone"></i> 01-0110-0220</p>
+                <p><i class="fa fa-envelope-o"></i> <a href="mailto:hello@company.co">hello@company.co</a></p>
+                <p><i class="fa fa-globe"></i> <a href="#">company.co</a></p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer Section -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12 col-sm-12">
+            <div class="wow fadeInUp footer-copyright" data-wow-delay="1.8s">
+              <p>Copyright &copy; 2016 Your Company
+
+                | Design: <a href="http://www.google.com/+templatemo" target="_parent">templatemo</a></p>
+            </div>
+            <ul class="wow fadeInUp social-icon" data-wow-delay="2s">
+              <li><a href="#" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-google-plus"></a></li>
+              <li><a href="#" class="fa fa-dribbble"></a></li>
+              <li><a href="#" class="fa fa-linkedin"></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+
 </html>
