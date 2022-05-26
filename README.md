@@ -1,2 +1,11 @@
-# sofros_me
-Pagina actualizada para http://www.sofroscorp.com/, utilizo la plantilla stimulus de http://www.templatemo.com/tm-498-stimulus, Nota importante, plantilla utilizada para Septiembre 2019 a Abril 2021.   This page is the initial in http://www.sofroscorp.com/ I use the template stimulus to http://www.templatemo.com/tm-498-stimulus, important Note, template used for September 2019 to April 2021.
+
+# SofrosCorp
+
+Esta es la página de inicio del sitio web Sofroscorp, en esta ocasión utilizo la plantilla de Mr. Web Design de youtube.
+
+
+## Link del template
+
+[Mr. Web Designer](https://www.youtube.com/c/MrWebDesignerAnas/videos)
+
+

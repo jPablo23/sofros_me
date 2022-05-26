@@ -2,10 +2,11 @@
 CREDITS
 
 Pipeline HTML CSS Template
-http://www.templatemo.com/tm-498-stimulus
+https://www.youtube.com/c/MrWebDesignerAnas/videos
 
-Bootstrap
-http://getbootstrap.com/
+
+Images personal
+Juan Pablo Rodriguez Mendoza
 
 Images
-Juan Pablo Rodriguez Mendoza
+https://unsplash.com/es
